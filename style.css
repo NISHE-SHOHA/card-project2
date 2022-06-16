@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.container{
+    margin: 25px;
+     width: 100%;
+     height: 100%;
+}
+.card{
+    background-color: rgb(26, 26, 26);
+    color: rgb(197, 187, 187);
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.card{
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    text-align: center;
+    color: rgb(135, 102, 166);
+}
+img{
+    height: 30%;
+    width: 30%;
+    border: 2px solid rgb(228, 152, 200);
+    border-radius: 50%;
+}
+p{
+    color: rgb(216, 210, 210);
+    font-size: small;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: rgb(95, 93, 97);
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+}
+li{
+    margin-left: 10px;
+    margin-top: -10px;
+    overflow: hidden;
+    
+}
+h1 {
+    background: -webkit-linear-gradient(rgb(178, 65, 153), rgb(144, 90, 188));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
